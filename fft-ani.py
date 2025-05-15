@@ -1,7 +1,7 @@
 from matplotlib.animation import FuncAnimation, PillowWriter
 import numpy as np
 
-series = signal_data[50:550] 
+series = #your signal
 N = len(series)
 t = np.arange(N)
 fft_coeffs = np.fft.rfft(series)
